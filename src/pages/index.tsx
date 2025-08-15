@@ -64,7 +64,7 @@ const HomePage: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-16 bg-white rounded-lg shadow-md p-8">
+        <div className="mt-16 mb-12 bg-white rounded-lg shadow-md p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Getting Started</h2>
           <p className="text-gray-600 mb-6">
             Ready to dive in? Here are some quick links to help you get started:
