@@ -3,7 +3,10 @@ import dynamic from "next/dynamic";
 import Layout from "../components/Layout";
 import "swagger-ui-react/swagger-ui.css";
 
-const SwaggerUI = dynamic(() => import("swagger-ui-react"), { ssr: false });
+const SwaggerUI = dynamic(() => import("swagger-ui-react"), {
+  ssr: false,
+  loading: () => <div className="animate-pulse p-6">Loading docs...</div>,
+});
 
 const APIPage: React.FC = () => {
   return (

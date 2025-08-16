@@ -64,11 +64,7 @@ const HomePage: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-16 mb-12 bg-white rounded-lg shadow-md p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Getting Started</h2>
-          <p className="text-gray-600 mb-6">
-            Ready to dive in? Here are some quick links to help you get started:
-          </p>
+        <div className="mt-16 mb-12 bg-white rounded-lg shadow-md p-8">          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-semibold text-gray-900">For Developers</h3>
