@@ -86,8 +86,6 @@ npm run build
 - Markdown rendering with custom styling
 - Author attribution and publication dates
 - Tag categorization system
-- Social sharing integration
-- Newsletter subscription
 
 ## 🔧 Technical Implementation
 
