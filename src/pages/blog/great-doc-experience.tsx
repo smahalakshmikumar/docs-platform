@@ -159,8 +159,8 @@ const BlogPost: React.FC = () => {
             </div>
           </div>
         </article>
-
-        <div className="mt-8 bg-gray-50 rounded-lg p-6">
+        {/* //TO DO:future */}
+        <div className="mt-8 bg-gray-50 rounded-lg p-6"> 
           <h3 className="text-lg font-semibold text-gray-900 mb-4">
             Share this article
           </h3>

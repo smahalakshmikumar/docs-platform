@@ -72,7 +72,7 @@ const BlogPage: React.FC = () => {
             </article>
           ))}
         </div>
-
+        {/* //TO DO:improvements for future */}
         <div className="mt-12 mb-40 text-center">
           <div className="bg-gray-50 rounded-lg p-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Subscribe to our newsletter</h2>
